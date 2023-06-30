@@ -1,0 +1,45 @@
+{
+  "name": "Ship",
+  "logo": "/logo.png",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#ECCBFF",
+    "light": "#ECCBFF",
+    "dark": "#ECCBFF"
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/paralect/ship"
+  },
+  "topbarLinks": [
+    {
+      "name": "What's Ship?",
+      "url": "https://ship.paralect.com//#product-platform"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/paralect"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Ship Components",
+      "pages": ["architecture"]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/paralect",
+    "github": "https://github.com/paralect/ship"
+  }
+}
