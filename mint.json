@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Ship",
   "logo": "/logo.png",
   "favicon": "/favicon.svg",
@@ -35,7 +36,25 @@
     },
     {
       "group": "Ship Components",
-      "pages": ["architecture"]
+      "pages": [
+        "architecture",
+        {
+          "group": "API", 
+          "pages": [
+            "api-reference/overview",
+            "api-reference/api-limitations",
+            "api-reference/using-events",
+            "api-reference/data-schema",
+            "api-reference/data-service",
+            "api-reference/api-action",
+            "api-reference/api-action-validator",
+            "api-reference/event-handler",
+            "api-reference/events",
+            "api-reference/testing",
+            "api-reference/workflow"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {
