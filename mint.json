@@ -7,10 +7,10 @@
     "light": "#ECCBFF",
     "dark": "#ECCBFF"
   },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": true
-  },
+ "modeToggle": {
+  "default": "dark",
+  "isHidden": true
+},
   "topbarCtaButton": {
     "type": "github",
     "url": "https://github.com/paralect/ship"
