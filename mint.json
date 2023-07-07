@@ -64,7 +64,15 @@
         {
           "group": "Deployment", 
           "pages": [
-            "deployment/digital-ocean-apps"
+            "deployment/digital-ocean-apps",
+            {
+              "group": "Kubernetes", 
+              "pages": [
+                "deployment/kubernetes/overview",
+                "deployment/kubernetes/digital-ocean",
+                "deployment/kubernetes/aws  "
+              ]
+            }
           ]
         }
       ]
