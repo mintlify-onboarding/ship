@@ -53,6 +53,19 @@
             "api-reference/testing",
             "api-reference/workflow"
           ]
+        },
+        "migrator", 
+        "scheduler",
+        "mailer",
+        {
+          "group": "Web", 
+          "pages": ["web/overview"]
+        },
+        {
+          "group": "Deployment", 
+          "pages": [
+            "deployment/digital-ocean-apps"
+          ]
         }
       ]
     }
