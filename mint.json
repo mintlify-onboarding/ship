@@ -9,9 +9,9 @@
     "dark": "#ECCBFF"
   },
  "modeToggle": {
-  "default": "dark",
-  "isHidden": true
-},
+    "default": "dark",
+    "isHidden": true
+  },
   "topbarCtaButton": {
     "type": "github",
     "url": "https://github.com/paralect/ship"
@@ -71,6 +71,43 @@
                 "deployment/kubernetes/overview",
                 "deployment/kubernetes/digital-ocean",
                 "deployment/kubernetes/aws  "
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Packages", 
+          "pages": [
+            "packages/node-mongo",
+            "packages/create-ship-app"
+          ]
+        },
+        "retool",
+        {
+          "group": "Examples", 
+          "pages": [
+            "examples/overview",
+            {
+              "group": "Stripe subscriptions",
+              "pages": [
+                "examples/stripe-subscriptions/overview",
+                "examples/stripe-subscriptions/account",
+                {
+                  "group": "API", 
+                  "pages": [
+                    "examples/stripe-subscriptions/api/overview",
+                    "examples/stripe-subscriptions/api/subscriptions",
+                    "examples/stripe-subscriptions/api/payments"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "API Public Docs",
+              "pages": [
+                "examples/api-public-docs/overview",
+                "examples/api-public-docs/usage",
+                "examples/api-public-docs/how-it-works"
               ]
             }
           ]
