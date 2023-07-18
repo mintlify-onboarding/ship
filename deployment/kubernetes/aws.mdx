@@ -77,7 +77,7 @@ You need to create [private repositories](https://console.aws.amazon.com/ecr/rep
 Now we should create a repository for each service.
 
 For Ship, we need to create repositories for the next services:
-* [**API**](/api/overview) - api
+* [**API**](/api-reference/overview) - api
 * [**Scheduler**](/scheduler) - scheduler
 * [**Migrator**](/migrator) - migrator
 * [**Web**](/web/overview) - web
@@ -95,7 +95,7 @@ After creation, you should have the following 4 services in ECR
 Docker images for each service are stored in a separate repository.
 During the deployment process script will automatically create paths to repositories in next format:
 
-* [**API**](/api/overview) - 402167441269.dkr.ecr.us-east-1.amazonaws.com/api;
+* [**API**](/api-reference//overview) - 402167441269.dkr.ecr.us-east-1.amazonaws.com/api;
 * [**Scheduler**](/scheduler) - r402167441269.dkr.ecr.us-east-1.amazonaws.com/scheduler;
 * [**Migrator**](/migrator) - 402167441269.dkr.ecr.us-east-1.amazonaws.com/migrator;
 * [**Web**](/web/overview) - 402167441269.dkr.ecr.us-east-1.amazonaws.com/web;
